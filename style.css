@@ -1,0 +1,105 @@
+/* Write some CSS below */
+/* #807182 */
+/* #bb1542 */
+/* #fabc74 */
+
+
+body{
+	margin: 0;
+	color: rgb(150,150,150)
+	font-family: Overpass;
+}
+
+h2{
+	font-family: Chivo;
+	color: #239f95
+}
+
+h3{
+	font-family: 'Indie Flower', cursive;
+	color: #239f95
+}
+
+p{
+	color: #807182;
+	text-align: center;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 300%;
+	color: #bb1542;
+	text-align: center;
+
+}
+
+a{
+	text-decoration:none;
+	color: #FFFFFF;
+	font-weight:bold;
+}
+a:hover{
+	color: green;
+}
+
+.btn-blue{
+	padding: 20px 40px;
+	background-color: #282E3D;
+	margin: 20px;
+	border-radius: 20px;
+	transition: .3s;
+	box-shadow: inset 0 0 10px gray;
+}
+
+.btn-blue:hover{
+	background: gray;
+}
+
+img{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+
+.Banner{
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/background.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 80px 0;
+	text-align: center;
+}
+
+.Banner2{
+	background-size: cover;
+	background-position: center;
+	padding: 20px 0;
+	text-align: center;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1)
+}
+
+.cards-container{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+
+.cards{
+	background-color: #dadada;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1)
+	border-radius: 3px;
+	width: 200px;
+	text-align: center;
+	padding: 40px 40px;
+	margin: 8px;
+	text-decoration: underline;
+	text-decoration-color: #239f95;
+}
+
+#Footer{
+	font-size: 20px;
+	background-color: #204969;
+	padding: 15px 0;
+}
+
+
